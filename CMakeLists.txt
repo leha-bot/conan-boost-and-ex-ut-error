@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.19)
+project(test_conan_boost_and_ex_ut)
+find_package(Boost COMPONENTS ut filesystem)
+add_executable(test_boost main.cpp)
+target_link_libraries(test_boost Boost::ut Boost::filesystem)

@@ -1,0 +1,6 @@
+[requires]
+boost/[*]
+boost-ext-ut/[*]
+
+[generators]
+cmake_find_package
